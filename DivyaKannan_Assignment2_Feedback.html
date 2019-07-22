@@ -1,0 +1,62 @@
+<html>
+
+<head>
+	<title>Feedback Form</title>
+</head>
+
+<body>
+	<form name = "Feedback Form" method = "post" action = "ThankYou.html">
+	<div style="background-color:#FBEEEE">
+		<div style = "padding: 1% 16%"> 		
+		
+			<table width="100%", padding="10px">
+				<col width = "25%">
+				<col width = "75%">
+				<style>
+					table, th, td {
+					text-align: left;
+					vertical-align: top;
+					}
+				</style>
+				
+					<tr>
+						<th><h3><font color="#9B3333">FEEDBACK</font></h3><th>
+									
+					</tr>
+						
+					<tr>			
+						<td><label for = "CaseID"><strong>CaseID:</strong></label></td>
+						<td><input type = "text" size="18%"></td>
+					</tr>
+					
+					<tr>			
+						<td><label for = "Subject"><strong>Subject:</strong><span style = "color:red">*</span></label></td>
+						<td><input type = "text" size="75%"></td>
+					</tr>
+					
+					<tr>			
+						<td><label for = "Comment"><strong>Comment:</strong></label></td>
+						<td><textarea cols="35" rows="10"></textarea></td>
+					</tr>
+					
+					<tr>			
+						<td><label for = "Importance"><strong>Importance:</strong></label></td>
+						<td>
+							<input type = "radio" name="Importance">High</br>
+							<input type = "radio" name="Importance">Medium</br>
+							<input type = "radio" name="Importance">Low</br>			
+						</td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td><input type = "submit" value="Submit"></td>
+					</tr>
+			</table>	
+			
+		</div>
+	</div>
+</body>
+</html>
+
+
